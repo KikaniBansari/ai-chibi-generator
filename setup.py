@@ -27,7 +27,8 @@ setup(
         "pillow>=8.0.0",
         "torch>=1.9.0",
         "torchvision>=0.10.0",
-        "open3d>=0.13.0",
+        # "open3d>=0.13.0", # Not compatible with Python 3.13
+        "pyntcloud>=0.3.0", # Alternative to open3d for Python 3.13
         "trimesh>=3.9.0",
         "pyrender>=0.1.45",
         "opencv-python>=4.5.0",
