@@ -17,7 +17,9 @@ import torch.nn.functional as F
 
 # For 3D mesh handling
 import trimesh
-import open3d as o3d
+# Replacing open3d with pyntcloud for Python 3.13 compatibility
+from pyntcloud import PyntCloud
+import pandas as pd
 
 logger = logging.getLogger(__name__)
 
