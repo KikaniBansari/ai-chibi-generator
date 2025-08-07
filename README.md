@@ -26,6 +26,18 @@ cd ai-chibi-generator
 # Install dependencies
 pip install -r requirements.txt
 ```
+If the above doesn't work for you; simply download the zip file and then in your command terminal run the below
+```bash
+# Create a virtual environment (if you haven't already)
+python -m venv venv
+
+# Activate it (Windows)
+.\venv\Scripts\activate
+
+# Then install requirements
+pip install -r requirements.txt
+```
+
 
 ## Usage
 
